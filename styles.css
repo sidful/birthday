@@ -1,0 +1,111 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#4DB2C5, #979EBF, #7173B0, #4E85B6, #5043A1);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#jane{
+    border: 6px solid black;
+    width: 150px;
+    border-radius: 50%;
+}
+
+h1, h2, h3, h4, p{
+    text-shadow: 0 0 2px black;
+}
+
+#birthday-yr{
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: pink;
+}
+
+#birthday-date{
+    margin-top: -5px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: pink;
+}
+
+.surp{
+    width: 400px;
+    border: 5px solid black;
+    background-image: url("images/box-cover.jpg");
+    height: 400px;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-hint{
+    margin-top: -10px;
+}
+
+.gift-title{
+    margin-bottom: 20px;
+}
+
+.gift-section{
+    margin-top: 20px;
+}
+
+#birthday-guy:hover{
+    background-image: url("images/birthday-guy.gif");
+}
+
+.surp1{
+    width: 400px;
+    border: 5px solid black;
+    background-image: url("images/box-cover.jpg");
+    height: 400px;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#birthday-guy1:hover{
+    background-image: url("images/birthday-guy1.gif");
+}
+
+#birthday-guy1{
+    height: 350px;
+}
+
+#birthdaycake2:hover{
+    background-image: url("images/birthday2.gif");
+}
+
+#birthdaycake2{
+    height: 350px;
+}
+    
+#cakeface3:hover{
+    background-image: url("images/cakeface3.gif");
+}
+
+#cakeface3{
+    height: 300px;
+}
+
+.footer{
+    margin: 40px auto 30px}
+
+#link{
+    font-size: x-large;
+    color: black;
+}
+
+#link-text{
+    font-size: large;
+}
